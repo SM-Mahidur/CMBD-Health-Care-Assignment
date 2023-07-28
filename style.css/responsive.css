@@ -1,0 +1,38 @@
+
+
+@media screen and (max-width:420px) {
+    .navbar-section,.nav ul,.banner,.sollution, .quality, .service-box, .certificate-container, .apps,.time,.footer-container,.copy-right{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        padding: 15px;
+        margin: 10px;
+        max-width: 100%;
+    }
+    .service1{
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+    }
+    .service-box {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        align-items: center;
+    }
+    .apps > .image-section{
+        max-width: 100%;
+    }
+    .apps > .content-section{
+        max-width: 100%;
+    }
+    .time > .content{
+        width: 100%;
+    }
+    .time > .time-image {
+        width:100%;
+    }
+}
