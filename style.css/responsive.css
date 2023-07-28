@@ -1,13 +1,13 @@
 
 
 @media screen and (max-width:420px) {
-    .navbar-section,.nav ul,.banner,.sollution, .quality, .service-box, .certificate-container, .apps,.time,.footer-container,.copy-right{
+    .navbar-section,.nav ul,.banner,.sollution,.footer, .quality, .service-box, .certificate-container, .apps,.time,.footer-container,.copy-right{
         flex-direction: column;
         text-align: center;
         justify-content: center;
-        padding: 15px;
+        padding: 5px 15px;
         margin: 10px;
-        max-width: 100%;
+        text-align: center;
     }
     .service1{
         width: 100%;
@@ -35,4 +35,86 @@
     .time > .time-image {
         width:100%;
     }
+    input#email{
+        margin: 10px auto;
+        padding: 5px;
+        padding: 10px ;
+        width: 100%;
+    }
+    .catergory{
+        text-align: center;
+    }
+    .subscribe-btn{
+        width: auto;
+    }
+    .copy-right{
+        gap:5px;
+    }
+    .certified-description{
+        max-width: 100%;
+        padding: 0px 5px;
+    }
 }
+
+
+
+
+
+@media screen and (max-width:420px) {
+    /* .navbar-section,.nav ul,.banner,.sollution,.footer, .quality, .service-box, .certificate-container, .apps,.time,.footer-container,.copy-right{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        padding: 15px 25px;
+        margin: 15px;
+        text-align: center;
+    } */
+    .service1{
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        text-align: center;
+        padding: 15px;
+        margin: 15px;
+    }
+    .service-box {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        align-items: center;
+    }
+    .apps > .image-section{
+        max-width: 100%;
+    }
+    .apps > .content-section{
+        max-width: 100%;
+    }
+    .time > .content{
+        width: 100%;
+    }
+    .time > .time-image {
+        width:100%;
+    }
+    input#email{
+        margin: 15px auto;
+        padding: 10px;
+        padding: 15px ;
+        width: 100%;
+    }
+    .catergory{
+        text-align: center;
+    }
+    .subscribe-btn{
+        width: auto;
+    }
+    .copy-right{
+        gap:5px;
+    }
+    .certified-description{
+        max-width: 100%;
+        padding: 0px 15px;
+    }
+}
+
+
+
